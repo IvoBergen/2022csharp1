@@ -1,0 +1,10 @@
+- Class
+- Bool
+- Int
+- String
+- Float
+- Bitmap
+- Graphics
+- Room
+- Playersprite
+- readonly
