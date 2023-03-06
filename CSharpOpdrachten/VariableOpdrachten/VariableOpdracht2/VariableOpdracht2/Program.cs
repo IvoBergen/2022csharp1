@@ -4,13 +4,10 @@ namespace VariableOpdracht2
 {
     internal class Program
     {
-        private static Game GetV()
-        {
-            return 'hello';
-        }
+        
 
         //class variables & gebruik
-        static void Main(Game Mario)
+        static void Main()
         {
 
             //ga naar de file TwitchStream.cs in je solution explorer in visual studio
@@ -22,7 +19,7 @@ namespace VariableOpdracht2
             //lastStreamName, waarde: de streamname van de laatste keer
             twitchStream.lastStreamName = "Hide n' seek with friends";
             //streamGame, waarde een nieuwe instance van Game (new Game("naam van de game hier"})
-            twitchStream.StreamGame = Mario;
+            twitchStream.StreamGame = new Game("mario oddysey");
             //followers, waarde: hoeveel followers
             twitchStream.followers = 1800000;
             //automod, waarde: staat automod aan?
