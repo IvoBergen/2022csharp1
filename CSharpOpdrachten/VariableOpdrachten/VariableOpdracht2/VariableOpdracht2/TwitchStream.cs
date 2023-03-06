@@ -6,16 +6,16 @@ namespace VariableOpdracht2
     {
         //maak hier class variables aan:
         // type=string, naam: name,
-        string name = ("SmallAnt");
+        internal string name;
         // type=string, naam: lastStreamName
-        string lastStreamName = ("Hide N Seek With Friends");
+        internal string lastStreamName;
         // type=Game, naam: streamGame
-        string StreamGame = ("Mario odyssey");
+        internal Game StreamGame;
         // type=int, naam: followers
-        int followers = 1200000;
+        internal int followers;
         // type=bool, naam: automod
-        bool automod = true;
-   
+        internal bool automod;
+
         
     }
 }
