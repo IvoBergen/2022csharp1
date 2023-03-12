@@ -27,7 +27,7 @@ namespace ClassOpdracht3
              */
 
             //4) roep hier de rungameloop aan 
-            Console.WriteLine(engine);
+            engine.RunGameLoop();
 
 
         }
